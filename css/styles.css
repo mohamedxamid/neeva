@@ -135,10 +135,22 @@ select:-webkit-autofill:focus {
     cursor: pointer;
 }
 
+.button--blue {
+    padding: 27px 19px;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 0;
+}
+
 .button__inner {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.button--blue .button__inner {
+    gap: 43px;
 }
 
 .button__inner::after {
@@ -148,6 +160,11 @@ select:-webkit-autofill:focus {
     height: 18px;
     background-image: url(../imgs/arrow-to-right.svg);
 }
+
+.button--blue .button__inner::after {
+    filter: brightness(0) invert(1);
+}
+
 
 
 /* MAIN CONTENT */
