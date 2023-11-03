@@ -118,6 +118,38 @@ select:-webkit-autofill:focus {
 }
 
 
+/* BUTTON */
+.button {
+    display: inline-block;
+    padding: 24px 32px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 133.333%;
+    color: var(--text-color);
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 36px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button__inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.button__inner::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../imgs/arrow-to-right.svg);
+}
+
+
 /* MAIN CONTENT */
 .main-content {
     flex-grow: 1;
