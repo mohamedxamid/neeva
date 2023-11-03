@@ -1,11 +1,11 @@
 /* CUSTOM PROPS */
 :root {
-    --blue: #415AFF;
-    --yellow: #F5FF93;
+    --blue: #415aff;
+    --yellow: #f5ff93;
     --black: #191919;
     --black-blue: #212529;
-    --light-grey: #8D9499;
-    --dark-grey: #44464D;
+    --light-grey: #8d9499;
+    --dark-grey: #44464d;
     --grey: #737980;
     --white: #fff;
     --text-color: var(--black);
