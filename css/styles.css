@@ -165,6 +165,31 @@ select:-webkit-autofill:focus {
     filter: brightness(0) invert(1);
 }
 
+/* FORM */
+.form {
+    display: flex;
+    width: 508px;
+    border: 1px solid #e3e7e2;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.form__group {
+    flex-grow: 1;
+}
+
+.form__field {
+    display: block;
+    width: 100%;
+    padding: 27px 28px;
+    font-size: 1.8rem;
+    line-height: 133.333%;
+    border: none;
+}
+
+.form__field::placeholder {
+    color: var(--light-grey);
+}
 
 
 /* MAIN CONTENT */
