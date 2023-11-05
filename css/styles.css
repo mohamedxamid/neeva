@@ -168,6 +168,7 @@ select:-webkit-autofill:focus {
 /* FORM */
 .form {
     display: flex;
+    max-width: 100%;
     width: 508px;
     border: 1px solid #e3e7e2;
     border-radius: 100px;
@@ -185,6 +186,8 @@ select:-webkit-autofill:focus {
     font-size: 1.8rem;
     line-height: 133.333%;
     border: none;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
 }
 
 .form__field::placeholder {
