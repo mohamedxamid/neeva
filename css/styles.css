@@ -110,7 +110,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 137.6rem;
+    max-width: 144rem;
     padding-left: 32px;
     padding-right: 32px;
     margin-left: auto;
