@@ -365,6 +365,39 @@ select:-webkit-autofill:focus {
 }
 
 
+/* PARTNERS */
+.partners {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.partners__title {
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-blue);
+}
+
+.partners__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px 65px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.partner__img {
+    display: block;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
