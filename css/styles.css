@@ -313,6 +313,58 @@ select:-webkit-autofill:focus {
 }
 
 
+/* RESULTS */
+.results {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.results__container {
+}
+
+.results__heading {
+    grid-column: 1 / -1;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--black-blue);
+}
+
+.results__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+    grid-column-gap: 96px;
+    grid-row-gap: 21px;
+}
+
+.results__preview {
+}
+
+.results-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.results-preview__desc {
+    flex-grow: 1;
+    margin-bottom: 21px;
+    font-size: 2.1rem;
+    line-height: 190.476%;
+    letter-spacing: 0.15rem;
+    color: var(--dark-grey);
+}
+
+.results-preview__img {
+    width: 294px;
+    height: 595px;
+    object-fit: contain;
+    margin-left: -16px;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -351,6 +403,10 @@ only screen and (                min-resolution: 2dppx) {
     .site-header__desc {
         width: 100%;
     }
+
+    .results__content {
+        grid-template-columns: repeat(auto-fit, 300px);
+    }
 }
 
 @media only screen and (max-width: 58.43em) {
@@ -374,7 +430,11 @@ only screen and (                min-resolution: 2dppx) {
 
     .site-hero__content {
         width: 475px;
-    }    
+    }
+
+    .results__content {
+        grid-template-columns: repeat(auto-fit, 280px);
+    }
 }
 
 @media only screen and (max-width: 50em) {
@@ -387,6 +447,14 @@ only screen and (                min-resolution: 2dppx) {
     .site-hero__content {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .results__heading {
+        text-align: center;
+    }
+
+    .results-preview__desc {
+        margin-bottom: 8px;
     }
 }
 
@@ -502,5 +570,20 @@ only screen and (                min-resolution: 2dppx) {
 
     .button--blue {
         border-radius: 36px;
+    }
+}
+
+@media only screen and (max-width: 23.75em /* 380px */) {
+    .results-preview {
+        align-items: center;
+    }
+    
+    .results-preview__desc {
+        font-size: 1.8rem;
+    }
+
+    .results-preview__img {
+        width: 235px;
+        height: auto;
     }
 }
