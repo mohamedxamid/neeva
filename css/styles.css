@@ -319,9 +319,6 @@ select:-webkit-autofill:focus {
     padding-bottom: 35px;
 }
 
-.results__container {
-}
-
 .results__heading {
     grid-column: 1 / -1;
     font-size: 1.6rem;
@@ -338,9 +335,6 @@ select:-webkit-autofill:focus {
     justify-content: center;
     grid-column-gap: 96px;
     grid-row-gap: 21px;
-}
-
-.results__preview {
 }
 
 .results-preview {
