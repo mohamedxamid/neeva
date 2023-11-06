@@ -869,6 +869,12 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media only screen and (max-width: 23.75em /* 380px */) {
+    .button {
+        padding: 14px 22px;
+        font-size: 1.6rem;
+        line-height: normal;
+    }
+    
     .results-preview {
         align-items: center;
     }
