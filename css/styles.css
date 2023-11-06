@@ -353,7 +353,7 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
-@media only screen and (max-width: 58.4375em) {
+@media only screen and (max-width: 58.43em) {
     .form__field {
         padding: 19px 13px;
     }
@@ -390,7 +390,7 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
-@media only screen and (max-width: 35.625em) {
+@media only screen and (max-width: 35.62em) {
     /* SITE-HEADER */
     .site-header {
         padding-top: 26px;
@@ -483,7 +483,7 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
-@media only screen and (max-width: 28.125em) {
+@media only screen and (max-width: 28.12em) {
     .form {
         flex-direction: column;
         gap: 8px;
