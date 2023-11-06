@@ -500,6 +500,74 @@ select:-webkit-autofill:focus {
 }
 
 
+/* CREATORS */
+.creators {
+    padding-top: 110px;
+    padding-bottom: 82px;
+}
+
+.creators__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 90px;
+}
+
+.creators__content {
+    justify-self: center;
+    max-width: 100%;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--black-blue);
+}
+
+.creators__heading {
+    margin-bottom: 30px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.creators__title {
+    margin-top: 0;
+    margin-bottom: 43px;
+    font-size: 5.7rem;
+    font-weight: 700;
+    line-height: 126.316%;
+    letter-spacing: 0.225rem;
+}
+
+.creators__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    justify-items: center;
+    grid-row-gap: 62px;
+}
+
+.creators-cart {
+    width: 180px;
+}
+
+.creators-cart__img {
+    margin-bottom: 17px;
+    width: 179px;
+    height: 222px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.creators-cart__title {
+    margin-bottom: 5px;
+    font-size: 2.4rem;
+    line-height: 133.333%;
+    color: var(--black-blue);
+}
+
+.creators-cart__desc {
+    color: var(--black-blue);
+}
 
 
 @media
@@ -555,6 +623,14 @@ only screen and (                min-resolution: 2dppx) {
         padding-left: 0;
     }
 
+    .creators__content {
+        justify-self: start;
+    }
+
+    .creators__inner {
+        grid-template-columns: 1fr;
+        grid-row-gap: 62px;
+    }
 }
 
 @media only screen and (max-width: 58.43em) {
@@ -601,6 +677,9 @@ only screen and (                min-resolution: 2dppx) {
         font-size: 4.4rem;
     }
 
+    .creators {
+        padding-top: 80px;
+    }
 }
 
 @media only screen and (max-width: 50em) {
@@ -642,6 +721,9 @@ only screen and (                min-resolution: 2dppx) {
         justify-self: start;
     }
 
+    .creators {
+        padding-top: 58px;
+    }
 }
 
 @media only screen and (max-width: 35.62em) {
@@ -748,6 +830,9 @@ only screen and (                min-resolution: 2dppx) {
         font-size: 5.4rem;
     }
 
+    .creators__content {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 28.12em) {
@@ -779,6 +864,14 @@ only screen and (                min-resolution: 2dppx) {
         font-size: 4.4rem;
     }
 
+    .creators__heading {
+        font-size: 2.2rem;
+    }
+
+    .creators__title {
+        font-size: 3.7rem;
+        line-height: normal;
+    }
 }
 
 @media only screen and (max-width: 23.75em /* 380px */) {
