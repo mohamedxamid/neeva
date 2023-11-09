@@ -663,6 +663,7 @@ select:-webkit-autofill:focus {
 .site-footer__link-list {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
     padding: 0;
     margin: 0;
