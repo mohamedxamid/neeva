@@ -302,6 +302,11 @@ select:-webkit-autofill:focus {
     margin-bottom: 30px;
 }
 
+.site-header__form-wrapper {
+    width: min-content;
+    text-align: center;
+}
+
 .site-header__form {
     margin-bottom: 8px;
 }
