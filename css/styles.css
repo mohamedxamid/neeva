@@ -303,7 +303,8 @@ select:-webkit-autofill:focus {
 }
 
 .site-header__form-wrapper {
-    width: min-content;
+    max-width: 100%;
+    width: max-content;
     text-align: center;
 }
 
