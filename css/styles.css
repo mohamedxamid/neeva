@@ -797,6 +797,11 @@ only screen and (                min-resolution: 2dppx) {
     .creators {
         padding-top: 58px;
     }
+
+    .site-hero--footer {
+        padding-top: 425px;
+    }
+
 }
 
 @media only screen and (max-width: 35.62em) {
@@ -978,4 +983,9 @@ only screen and (                min-resolution: 2dppx) {
         width: 235px;
         height: auto;
     }
+
+    .site-hero--footer {
+        padding-bottom: 58px;
+    }
+
 }
