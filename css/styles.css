@@ -625,6 +625,18 @@ select:-webkit-autofill:focus {
     color: var(--grey);
 }
 
+/* SITE-HERO--FOOTER */
+.site-hero--footer {
+    padding-top: 165px;
+    padding-bottom: 78px;
+    background-image: url(../imgs/site-hero--footer-bg.png);
+    background-position: top 165px left calc(50% + 445px);
+}
+
+.site-hero--footer .site-hero__title {
+    margin-bottom: 60px;
+}
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -634,9 +646,13 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-    .site-hero {
-        /* background-image: url("../imgs/site-hero-bg@2x.png"); */
-    }
+    /* .site-hero {
+        background-image: url("../imgs/site-hero-bg@2x.png");
+    } */
+
+    /* .site-hero--footer {
+        background-image: url(../imgs/site-hero--footer-bg@2x.png);
+    } */
 
 }
 
